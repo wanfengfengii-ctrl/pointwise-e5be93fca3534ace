@@ -2,6 +2,6 @@
   "version": 1,
   "kind": "cli",
   "setup": [],
-  "verify": ["python3.11", "-B", "-m", "unittest", "discover", "-s", "tests", "-v"],
-  "demo": ["python3.11", "-B", "-m", "warehouse", "demo"]
+  "verify": ["python3.11", "-B", "merge_examples.py", "verify"],
+  "demo": ["python3.11", "-B", "merge_examples.py", "demo"]
 }
